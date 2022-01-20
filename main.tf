@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "k8s" {
-    name     = var.resource_group_name
-    location = var.location
+    name     = test-tf-cloud
+    location = westeurope
 }
